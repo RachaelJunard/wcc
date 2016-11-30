@@ -1,0 +1,36 @@
+<style>
+    img + h1 {
+        background-color:yellow;
+    }
+
+    /* This will not do anything, because the h2 is not directly next to the img */
+    img + h2 {
+        background-color:orange;
+    }
+</style>
+
+<section>
+    <header>
+        <img src='https://practice-pixels.s3.amazonaws.com/book-logo.png' alt='Reading List Logo'>
+        <h1>Reading List</h1>
+        <h2>Curated by Sabrina</h2>
+    </header>
+</section>
+
+<style>
+    ul > li > img {
+        border:1px solid black;
+    }
+</style>
+
+<ul>
+    <li>
+        <img src='https://practice-pixels.s3.amazonaws.com/kitten_150x150.jpg'>
+    </li>
+    <li>
+        <img src='https://practice-pixels.s3.amazonaws.com/kitten_150x150.jpg'>
+    </li>
+    <li>
+        <img src='https://practice-pixels.s3.amazonaws.com/kitten_150x150.jpg'>
+    </li>
+</ul>
