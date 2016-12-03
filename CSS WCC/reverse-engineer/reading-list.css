@@ -1,0 +1,7 @@
+#wrapper {
+    background-image: http://practice-pixels.s3.amazonaws.com/texture-blue.jpg
+    width:800px;
+    margin:auto; /* Centers the div on the page */
+    font-size: 62.5%; /* Will make the default browser size 10px */
+    padding:25px;
+}
